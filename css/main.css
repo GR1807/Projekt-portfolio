@@ -257,11 +257,24 @@ h2 {
 
 .prices .team {
   position: relative;
-  background-image: url("../images/office-about-us.jpg");
+  background-image: url("/images/office-about-us.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
 }
 
-.prices .contact h2 {
-  color: brown;
+.prices .team h2 {
+  color: #ddd;
+}
+
+.prices .team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(85, 79, 79, 0.603);
+  z-index: -5;
 }
 
 .prices .contact label {
