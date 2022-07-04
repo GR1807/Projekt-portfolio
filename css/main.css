@@ -254,38 +254,48 @@ h2 {
   background-color: #f5ffdf;
 }
 
-.contact label {
+.prices #test {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/header-img-big.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.prices .contact label {
   margin-top: 20px;
 }
 
-.contact .contact-button {
+.prices .contact .contact-button {
   margin-top: 10px;
   padding: 10px 20px;
   width: 100px;
 }
 
-.contact .contact-details p {
+.prices .contact .contact-details p {
   border: 2px solid black;
   padding: 20px;
 }
 
 @media (min-width: 320px) {
-  #navbar .fa-bars {
+  .prices #navbar .fa-bars {
     padding: 2px;
   }
-  #prices .price-box {
+  .prices #prices .price-box {
     margin-top: 35px;
   }
 }
 
 @media (min-width: 414px) {
-  .header-txt {
+  .prices .header-txt {
     padding: 10px;
   }
 }
 
 @media (min-width: 576px) {
-  .card-group {
+  .prices .card-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -295,19 +305,19 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .header-image .header-txt h1 {
+  .prices .header-image .header-txt h1 {
     font-size: 35px;
   }
-  .header-image .header-txt p {
+  .prices .header-image .header-txt p {
     font-size: 14px;
   }
 }
 
 @media (min-width: 1200px) {
-  .header-image {
+  .prices .header-image {
     background-image: url("../images/header-img-big.jpg");
   }
-  .aboutme-hero-picture {
+  .prices .aboutme-hero-picture {
     background-image: url("../images/about-me-hero-big.jpg");
   }
 }
