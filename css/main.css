@@ -254,14 +254,13 @@ h2 {
   background-color: #f5ffdf;
 }
 
-.prices #test {
+.prices .team {
   position: relative;
-  height: 100vh;
-  background-image: url("../images/header-img-big.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url("../images/office-about-us.jpg");
+}
+
+.prices .contact h2 {
+  color: brown;
 }
 
 .prices .contact label {
