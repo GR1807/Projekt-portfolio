@@ -198,6 +198,7 @@ h2 {
 
 .prices {
 	.price-box {
+		margin-bottom: 25px;
 		padding: 20px;
 		background-color: white;
 		box-shadow: (2px 2px 2px 2px) rgba(0, 0, 0, 0.4);
@@ -225,19 +226,15 @@ h2 {
 	}
 
 	// TEAM //
-
-	// test section//
-	#test {
+	.team {
 		position: relative;
-		height: 100vh;
-		background-image: url("../images/header-img-big.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		background-image: url("../images/office-about-us.jpg");
 	}
-	// KONTAKT//
 
+	// KONTAKT//
+	.contact h2 {
+		color: brown;
+	}
 	.contact label {
 		margin-top: 20px;
 	}
