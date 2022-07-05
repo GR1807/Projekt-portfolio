@@ -232,7 +232,24 @@ h2 {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+		background-attachment: fixed;
 		z-index: 1;
+
+		.card {
+			height: 428px;
+			img {
+				height: 200px;
+				object-fit: cover;
+			}
+			margin: 0 10px;
+			transition: transform 0.3s;
+			p.card-text {
+				height: 120px;
+			}
+		}
+		.card:hover {
+			transform: scale(0.98);
+		}
 
 		h2 {
 			color: $light-txt-color;

@@ -261,7 +261,32 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   z-index: 1;
+}
+
+.prices .team .card {
+  height: 428px;
+  margin: 0 10px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.prices .team .card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.prices .team .card p.card-text {
+  height: 120px;
+}
+
+.prices .team .card:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
 }
 
 .prices .team h2 {
