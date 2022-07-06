@@ -1,7 +1,7 @@
 $(".team-carousel").slick({
 	arrows: false,
 	autoplay: true,
-	autoplaySpeed: 2500,
+	autoplaySpeed: 2000,
 	mobileFirst: true,
 	slidesToShow: 1,
 	slidesToScroll: 1,
