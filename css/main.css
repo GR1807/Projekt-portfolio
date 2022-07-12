@@ -302,6 +302,19 @@ h2 {
   z-index: -5;
 }
 
+.prices .achievements-items i {
+  font-size: 45px;
+}
+
+.prices .achievements-items p {
+  margin: 0;
+}
+
+.prices .achievements-items .item-number {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
 .prices .contact label {
   margin-top: 20px;
 }
@@ -324,11 +337,17 @@ h2 {
   .prices #prices .price-box {
     margin-top: 35px;
   }
+  .prices #achievements .achivement-item {
+    margin-top: 35px;
+  }
 }
 
 @media (min-width: 414px) {
   .prices .header-txt {
     padding: 10px;
+  }
+  .prices #achievements .achivement-item {
+    margin-top: 35px;
   }
 }
 
@@ -339,6 +358,9 @@ h2 {
     display: flex;
     padding: 0 50px;
     gap: 25px;
+  }
+  .prices #achievements .achivement-item {
+    margin-top: 35px;
   }
 }
 

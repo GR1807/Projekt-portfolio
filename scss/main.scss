@@ -264,7 +264,19 @@ h2 {
 		}
 	}
 	// KONTAKT//
-
+	// OSIĄGNIĘCIA //
+	.achievements-items {
+		i {
+			font-size: 45px;
+		}
+		p {
+			margin: 0;
+		}
+		.item-number {
+			padding-top: 10px;
+			font-weight: bold;
+		}
+	}
 	.contact label {
 		margin-top: 20px;
 	}
@@ -285,10 +297,16 @@ h2 {
 		#prices .price-box {
 			margin-top: 35px;
 		}
+		#achievements .achivement-item {
+			margin-top: 35px;
+		}
 	}
 	@media (min-width: 414px) {
 		.header-txt {
 			padding: 10px;
+		}
+		#achievements .achivement-item {
+			margin-top: 35px;
 		}
 	}
 
@@ -297,6 +315,9 @@ h2 {
 			display: flex;
 			padding: 0 50px;
 			gap: 25px;
+		}
+		#achievements .achivement-item {
+			margin-top: 35px;
 		}
 	}
 
