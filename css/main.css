@@ -302,6 +302,30 @@ h2 {
   z-index: -5;
 }
 
+.prices .contact {
+  position: relative;
+  background-image: url("../images/contact-bg-big.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.prices .contact h2,
+.prices .contact .contact-item {
+  color: white;
+}
+
+.prices .contact .contact-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -5;
+}
+
 .prices .achievements-items i {
   font-size: 45px;
 }
