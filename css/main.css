@@ -315,17 +315,17 @@ h2 {
   font-weight: bold;
 }
 
-.prices .contact label {
+.prices .contact-form label {
   margin-top: 20px;
 }
 
-.prices .contact .contact-button {
+.prices .contact-form .contact-button {
   margin-top: 10px;
   padding: 10px 20px;
   width: 100px;
 }
 
-.prices .contact .contact-details p {
+.prices .contact-form .contact-form-details p {
   border: 2px solid black;
   padding: 20px;
 }
