@@ -364,6 +364,9 @@ h2 {
   .prices #achievements .achivement-item {
     margin-top: 35px;
   }
+  .prices #contact .contact-item {
+    margin-top: 40px;
+  }
 }
 
 @media (min-width: 414px) {
