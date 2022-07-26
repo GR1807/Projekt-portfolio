@@ -309,7 +309,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  z-index: 1;
+  z-index: 0;
 }
 
 .prices .contact h2,
@@ -324,6 +324,15 @@ h2 {
   top: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: -5;
+}
+
+.prices .contact .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .prices .achievements-items i {
