@@ -1,0 +1,5 @@
+.heartbeat {
+  -webkit-animation: heartbeat 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+          animation: heartbeat 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+}
+/*# sourceMappingURL=animations.css.map */
